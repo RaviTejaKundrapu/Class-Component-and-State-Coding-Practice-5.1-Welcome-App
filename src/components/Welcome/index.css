@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #1e293b;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 53px;
+  font-weight: 900;
+  color: #f0bb03;
+  text-align: center;
+  margin: 0px;
+}
+
+.message {
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+.button {
+  background-color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 9px;
+  padding: 5px;
+}
+
+@media all and (min-width: 767px) {
+  .heading {
+    font-size: 73px;
+  }
+
+  .message {
+    font-size: 30px;
+  }
+
+  .button {
+    font-size: 22px;
+  }
+}
